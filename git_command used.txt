@@ -24,11 +24,14 @@ syntax: fit init
  
  4)git commit
  committing changes
- $ git commit
+ syntax:- $ git commit
 
 5) git log
 viewing commit history
-$ git log
+it is used to view the commit history of a git repository.
+ syntax:- $ git log
+  or
+  git log --oneline
 
 6)git diff
 viewing differences
