@@ -1,0 +1,37 @@
+1)command:- git init
+
+1)it is used t and initialize Git repository in a folder.
+2)it creates a hidden .git folder in our directory, where git stores all its tracking information.
+syntax: fit init
+
+ 
+ 2)git status
+ checking repository status
+ it is used to check the current status of our git repository.
+ 1)it shows which files are staged, unstaged or untracked.
+ 2) it helps to see if there are changes to commit,files to stage or untracked files.
+ syntax:- $ git status
+ 
+ 3)git add
+ adding files to staging
+ $ git add <file name.txt>
+ 
+ suppose you modify and add the numbers of file so the used the below command
+ $ git add *
+ or
+ 
+ $ git add .
+ 
+ 4)git commit
+ committing changes
+ $ git commit
+
+5) git log
+viewing commit history
+$ git log
+
+6)git diff
+viewing differences
+
+7)git clone
+cloning a repository
