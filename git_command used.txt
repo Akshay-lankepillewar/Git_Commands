@@ -1,3 +1,16 @@
+config 
+syntax: $ git config --global user.name "Akshay-lankepillewar"
+$ git config --global user.password "Akshay@221299"
+$ git config --global user.email "lankepillewarakshay@gmail.com"
+
+ git config --global --list
+
+user.name=Akshay-lankepillewar
+user.email=lankepillewarakshay@gmail.com
+user.password=Akshay@221299
+
+
+
 1)command:- git init
 
 1)it is used t and initialize Git repository in a folder.
@@ -22,6 +35,7 @@ syntax: fit init
  
  $ git add .
  
+ 
  4)git commit
  committing changes
  syntax:- $ git commit
@@ -29,12 +43,57 @@ syntax: fit init
 5) git log
 viewing commit history
 it is used to view the commit history of a git repository.
+
+1) it is displays a lisst of commits in reverse order, showing the most recent commits first.
+
  syntax:- $ git log
   or
   git log --oneline
+  
+  
 
 6)git diff
 viewing differences
+it is used to  show the diferences between the working directory and the staging area.
+
+it is useful for code reviews and debugging by checking the differences before committing changes.
+syntax:- git diff
+ or
+ git diff commit1 commit2
 
 7)git clone
 cloning a repository
+
+it is used to create a copy of an existing Git repository from a remote server(like Github,Gitlab) to our local machine.
+
+it will download all files,commit history, branches and tags from the remote repository.
+
+syntax: git clone<repository-url>
+
+8) git fetch command
+fetching update
+
+it is used to retrieve the latest updates from a remote repository without merging them into our local branch.
+
+2) it allows us to see new commits, branches, and changes before inegrating them.
+
+syntax : git fetch<remote-name>
+
+9) Git merge command
+Merging Branches
+it is used to combine the changesbetween different local repositories or branches.
+
+2) primarily,it is used to merge branches in an online repository.
+
+syntax: git merge Fetch_Head
+
+
+
+10) git pull
+pulling update.
+
+
+
+
+
+
