@@ -81,7 +81,7 @@ syntax : git fetch<remote-name>
 
 9) Git merge command
 Merging Branches
-it is used to combine the changesbetween different local repositories or branches.
+it is used to combine the changes between different local repositories or branches.
 
 2) primarily,it is used to merge branches in an online repository.
 
